@@ -1,0 +1,3535 @@
+/*Custom breakpoint(desktops, less than 1500px)*/
+@media (max-width: 1499.98px) {
+	.header-area .logo {
+		max-width: 100px;
+		margin-right: 30px;
+	}
+	.math-search .input-group>.form-control {
+		-webkit-box-flex: unset;
+		    -ms-flex: unset;
+		        flex: unset;
+	}
+	.math-search input.math {
+		width: 53%;
+	}	
+	.math-search .math-level {
+		width: 45%;
+	}
+	.main-menu li a {
+		padding: 0 10px;
+	}
+	.language-search-btn, 
+	.reg-btn {
+		padding: 0 13px;
+		font-size: 14px;
+		margin-left: 7px;
+	}
+	.profile-list-bio .bio-image {
+		width: 180px
+	}	
+	.profile-list-bio .profile-image img {
+		max-width: 140px;
+	}
+	.profile-list-bio .bio-desc {
+		width: calc(100% - 190px);
+	}
+	.profile-list-bio .profile-name {
+		font-size: 24px;
+	}
+	.profile-list-bio .subtitle {
+		font-size: 16px;
+		margin: 10px 0;
+	}
+	.profile-list-bio .request-label {
+		font-size: 14px;
+	}
+	.profile-list-bio .bio-desc .send-offer-btn {
+		position: static;
+		margin-top: 15px;
+	}
+
+	/* logged in pages */
+	.loggedin-header .user-status {
+		margin-left: 20px;
+	}
+	.loggedin-header .user-status .loggedin-user-name {
+		font-size: 17px;
+		max-width: 185px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	/* teacher dashboard */
+	.dashboard .user-profile .rating {
+		font-size: 14px;
+	}
+	.dashboard .user-profile .rating .point {
+		margin: 0 7px;
+	}
+
+	/* admin dashboard */
+	.admin-dashboard-content section .list-view-box,
+	.notes-section .col-notifications .notifications-content, 
+	.notes-section .col-notes .notes-content, 
+	.notes-section .col-add-note-calendar .add-note-content {
+		padding: 25px 15px 0;
+	}
+	section .custom-column-wrap .col-status-box {
+		width: 275px;
+	}
+	.report-section .col-new-reports {
+		width: calc((100% - 275px) * 0.49);
+	}
+	.report-section .col-staff-activity {
+		width: calc((100% - 275px) * 0.51);
+	}
+	.tabled-section .content-table tbody td.description {
+		width: 180px;
+	}
+	.notes-section .col-notifications, 
+	.notes-section .col-notes {
+		width: 50%;
+	}
+	.lesson-section .col-booked-lesson {
+		width: 100%;
+	}
+	.notes-section .col-add-note-calendar,
+	.lesson-section .col-new-publish-request {
+		width: calc(100% - 275px);
+	}
+	.tabled-section .list-view-box .single-item .item-title {
+		font-size: 15px;
+	}
+	.tabled-section .content-table tbody td.title {
+		font-size: 12px;
+	}
+	.tabled-section .list-view-box .single-item .item-img, 
+	.tabled-section .list-view-box .single-item .item-img img {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.list-view-box .content-table .item-action-buttons .button + .button {
+		margin-left: 5px;
+	}
+	.notes-section .col-add-note-calendar,
+	.notes-section .col-status-box,
+	.lesson-section .col-new-publish-request,
+	.lesson-section .col-status-box {
+		margin-top: 35px;
+	}
+	.admin-dashboard-content .notes-section .hw-pop-box {
+		right: 0;
+	}
+
+
+	/* registration page */
+	.reg-form-guide .nav-tabs li a {
+		padding: 12px 15px;
+	}
+
+	/* student request page */
+	.request-filter-area .status-search {
+		margin-left: 30px;
+	}
+	.request-filter-area .multi-search-form select {
+		min-width: unset;
+	}
+	.request-filter-area .multi-search-form .price-filter-box {
+		width: 120px;
+		margin-right: 16px;
+	}
+
+	/* course page */
+	.course-tabulation .nav-tabs li a {
+		font-size: 20px;
+	}
+	.all-course-table tr .date,
+	.all-course-table tr .time,
+	.all-course-table tr .duration,
+	.all-course-table tr .price,
+	.all-offer-section .all-course-table tr .price {
+		min-width: 55px;
+	}
+	.all-course-table thead tr th {
+		font-size: 16px;
+	}
+	.all-course-table tbody td {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 5px 10px;
+	}
+
+	/* offer page */
+	.all-course-table tr .details, 
+	.all-offer-section .all-course-table tr .status {
+		width: 195px;
+	}
+	.all-course-table tbody td.details {
+		font-size: 13px;
+	}
+
+	/* teacher offer page */	
+	.teacher-offer-section .all-course-view .tab-content {
+		padding: 40px 30px 0;
+	}
+
+	/* admin withdraw request page */
+	.all-withdraw-request.all-course-view .tab-content {
+		padding: 40px 20px 0;
+	}
+
+	/* admin notifications page */
+	.all-course-table tr td.details.long {
+		width: 600px;
+	}
+
+	/* course/lesson detail page */
+	.chatbox .profile-image img {
+		width: 140px;
+		height: 140px;
+	}
+	.chatbox .profile-list-bio .bio-image,
+	.chat-detail-section.admin-chat .chatbox .profile-list-bio .bio-image {
+		min-width: unset;
+	}
+	.chatbox .user-info .lesson-history {
+		padding-left: 20px;
+	}
+
+	/* add homework calendar popup */
+	.hw-pop-box .hw-pop-inner {
+		width: 600px;
+	}
+}
+
+
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	.menu-and-reg {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}	
+	.main-menu {
+		-webkit-box-flex: unset !important;
+		    -ms-flex-positive: unset !important;
+		        flex-grow: unset !important;
+		width: 100%;
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+		margin-top: 15px;
+	}
+	.home .img-text-box .section-img-cont {
+		padding: 0 50px;
+	}
+	.home .img-text-box .section-text-cont {
+		padding: 0;
+	}
+	.home .img-text-box .section-img-cont img {
+		max-width: 100%;
+	}
+	.whys-us-reasons .single-reason .reason-name {
+		min-height: 73px;
+	}
+
+	/* profile pages */
+	.profile .user-profile {
+		padding: 30px 20px;
+	}
+	.profile .profile-image img {
+		width: 120px;
+		height: 120px;
+	}
+	.profile .online-status,
+	.profile .lesson-rate .text {
+		font-size: 14px;
+	}	
+	.profile .lesson-rate {
+		right: 0;
+	}
+	.profile .lesson-rate .price {
+		font-size: 20px;
+		width: 50px;
+		height: 50px;
+		line-height: 48px;
+	}
+	.profile .user-profile .short-info {
+		font-size: 14px;
+	}
+	.lesson-history-item {
+		font-size: 13px;
+	}
+	.profile.single .hero-menu-tabs-container {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}	
+	.profile.single .hero-menu-tabs-container.hero-main-content--top  {
+		height: 50px;
+	}
+	.profile.single .hero-main-content--top .hero-menu-tab {
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.profile.single .hero-menu-tabs-container .hero-menu-tab + .hero-menu-tab {
+		margin-left: 22px;
+	}
+	.lecture-title {
+		font-size: 16px;
+	}
+	.current-lecture-player {
+		height: 300px;
+	}
+	.single-lecture {
+		padding: 10px 10px 10px 20px;
+	}
+	.single-lecture .lecture-thumb {
+		width: 70px;
+		height: 50px;
+	}
+	.single-lecture .lecture-info {
+		width: calc(100% - 80px);
+	}
+	.more-lecture-btn {
+		margin-right: 10px;
+	}
+	.morestudents .section-heading {
+		margin-bottom: 20px;
+	}
+	.profile-list-bio .bio-image {
+		width: 200px;
+	}
+	.profile .profile-image img {
+		margin-left: 35px;
+	}
+	.profile-list-bio .bio-desc {
+		width: calc(100% - 225px);
+	}
+	.profile-list-bio .bio-desc .send-offer-btn {
+		position: absolute;
+		margin: 0;
+	}
+	.single-profile-list .lesson-history:before {
+		display: none;
+	}
+
+	/* registration page */
+	.registration-features .reg-feature-label {
+		font-size: 17px;
+		line-height: 22px;
+	}
+	
+	/* send offer */
+	.modal .offer-tutor-info .profile-summary {
+		margin-bottom: 30px;
+	}
+	.modal .profile-list-bio .lesson-rate .price,
+	.featured-profiles .modal .profile-list-bio .lesson-rate .price {
+		font-size: 20px;
+		width: 50px;
+		height: 50px;
+		line-height: 48px;
+	}	
+
+	/* logged in pages */
+	.loggedin-header .logo img {
+		max-width: 80px;
+	}
+	.loggedin-header .logo .site-title {
+		font-size: 20px;
+	}
+	.loggedin-header .main-menu {
+		-webkit-box-flex: unset !important;
+		    -ms-flex-positive: unset !important;
+		        flex-grow: unset !important;
+		width: unset;
+		-webkit-box-ordinal-group: NaN;
+		    -ms-flex-order: unset;
+		        order: unset;
+		margin-top: unset;
+		margin-left: 20px;
+	}
+	.loggedin-header .main-menu li a {
+		font-size: 13px;
+		line-height: 17px;
+		padding: 0;
+	}
+	.loggedin-header .main-menu li + li a {
+		margin-left: 25px;
+	}
+	.loggedin-header .user-status {
+		margin-left: 10px;
+	}
+	.loggedin-header .language-search-btn {
+		padding: 0 5px;
+		min-width: unset;
+		height: 35px !important;
+		line-height: 35px !important;
+	}
+	.loggedin-header .user-img img {
+		width: 35px;
+		height: 35px;
+	}
+	.loggedin-header .user-img:after {
+		font-size: 11px;
+	}
+	.loggedin-header .user-status .loggedin-user-name {
+		font-size: 13px;
+		line-height: 23px;
+		margin-left: 10px;
+		max-width: 150px;
+	}
+	.dashboard .profile .user-profile {
+		min-height: unset;
+	}
+	.dashboard .profile .profile-image img {
+		width: 120px;
+		height: 120px;
+	}
+	.dashboard-contents {
+		padding: 35px 0;
+	}
+	.list-view-box, 
+	.course-calendar-box, 
+	.notes-box {
+		height: auto !important;
+	}
+	.single-lesson .lesson-desc {
+		height: 36px;
+		-webkit-line-clamp: 2;
+	}
+
+	/* teacher dashboard page */
+	.dashboard.teacher .profile .lesson-history-item,
+	.dashboard.teacher .profile-summary .lesson-history-item select {
+		font-size: 13px;
+	}
+	.homework-section .course-calendar-box,
+	.our-teachers-section .notes-box {
+		margin-top: 35px;
+		padding: 25px;
+	}
+	.teacher-dashboard-contents section.dashboard-lecture {
+		padding: 30px 15px;
+	}
+	.dashboard-lecture .current-lecture .lecture-title {
+		font-size: 18px;
+	}
+
+	/* admin dashboard */
+	.report-section .col-new-reports,
+	.report-section .col-staff-activity {
+		width: calc(100% - 275px);
+	}
+	.report-section .col-staff-activity {
+		margin-top: 35px;
+	}
+	.admin-dashboard-content .list-view-box, 
+	.admin-dashboard-content .course-calendar-box, 
+	.admin-dashboard-content .notes-box {
+		height: 100% !important;
+	}
+	.tabled-section .content-table tbody td.description {
+		width: 250px;
+	}
+	.staff-activity-content .content-table tbody td.action {
+		width: 100px;
+	}
+
+	/* view teacher sent offer page */
+	.active-request-view {
+		padding: 40px 40px 20px 40px;
+	}
+	.active-request-view .bio-image {
+		width: 140px;
+	}
+	.active-request-view .offer-detail {
+		width: calc(100% - 150px);
+	}
+	.active-request-view .profile-image img {
+		width: 120px;
+		height: 120px;
+	}
+	.active-request-view .bio-image .online-status {
+		left: -30px;
+	}
+	.active-request-view .bio-image .local-time {
+		margin: 15px 0 0 0;
+	}
+	.active-request-view .offer-detail .name {
+		font-size: 30px;
+	}
+	.active-request-view .subtitle {
+		font-size: 25px;
+		margin: 10px 0;
+	}
+	.active-request-view .description,
+	.offer-sender-section .active-request-view .description {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.active-request-view .meta-item {
+		font-size: 14px;
+	}
+	.active-request-view .metadata-action-buttons {
+		margin-top: 10px;
+	}
+	.active-request-view .offer-detail .sender-price {
+		font-size: 36px;
+	}
+
+	/* student request page */
+	.request-filter-area .page-title {
+		font-size: 20px;
+	}
+	.request-filter-area .status-search {
+		max-width: 165px;
+		margin-left: 20px;
+	}
+	.request-filter-area .status-search .button {
+		font-size: 12px;
+		width: auto;
+		padding: 0 15px;
+	}
+	.request-filter-area .multi-search-form .price-filter-box {
+		width: 110px;
+		margin-right: 10px;
+	}
+	.request-filter-area .multi-search-form .multi-search-submit {
+		margin-left: 7px;
+	}
+	.request-filter-area .multi-search-form label, 
+	.request-filter-area .search-count-filter label {
+		font-size: 13px;
+	}
+	.all-student-requests .active-request-view .heading .rate {
+		margin-bottom: 0;
+		line-height: 1;
+	}
+	.all-student-requests .active-request-view .metadata-action-buttons {
+		margin-top: 5px;
+	}
+	.all-student-requests .active-request-view .description {
+		margin-top: 10px;
+	}
+	.all-student-requests .active-request-view .meta-item {
+		margin-right: 8px;
+	}
+	.all-student-requests .active-request-view .meta-item {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	/* course page */
+	.course-tabulation .nav-tabs li a {
+		font-size: 18px;
+	}
+	.all-course-table thead tr th {
+		font-size: 14px;
+	}
+	.all-course-table tbody td {
+		font-size: 13px;
+		line-height: 16px;
+		padding: 3px 5px;
+	}
+	.all-course-table tbody td .action-btn-wrap .button {
+		font-size: 10px;
+		width: 30px;
+		height: 25px;
+		line-height: 25px;
+		margin-right: 3px;
+	}
+	.all-course-table tbody td .action-btn-wrap .button img {
+		max-height: 10px;
+		max-width: 16px;
+	}
+	
+	/* offer page */
+	.all-course-table tr .details, 
+	.all-offer-section .all-course-table tr .status {
+		width: 180px;
+	}
+	.all-offer-section .all-course-table tr .status {
+		width: auto;
+		min-width: 150px;
+	}
+	.all-course-table tbody td.details {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	/* teacher offer page */
+	.teacher-offer-section .all-course-view .tab-content {
+		padding: 40px 15px 0;
+	}
+	.all-course-table tr .appr-status {
+		width: 85px;
+	}	
+	.all-offer-section .all-course-table tr .appr-status .approved .icon {
+		margin-left: 0;
+		margin-top: 3px;
+	}
+
+	/* student total request page */
+	.total-request-section .all-course-table .price {
+		min-width: 60px;
+	}
+	.total-request-section .all-course-table .count,
+	.total-request-section .all-course-table .action {
+		min-width: 125px;
+	}
+	.all-course-table tbody td.count .count-wrap {
+		width: 100px;
+	}
+
+	/* admin total teacher/student page */
+	.admin-total-user-section .all-course-table td.subjects {
+		min-width: unset;
+	}
+	.admin-total-user-section .all-course-table tbody td.action {
+		width: 170px;
+	}
+	.admin-total-user-section .all-course-table td.total-paid {
+		min-width: 100px;
+	}
+
+	/* admin withdraw request page */
+	.all-withdraw-request.all-course-view .tab-content {
+		padding: 40px 15px 0;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.action {
+		width: 120px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw thead tr th {
+		font-size: 13px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody tr td {
+		font-size: 12px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image {
+		margin-right: 7px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image:after {
+		top: 1px;
+		right: 1px;
+		width: 7px;
+		height: 7px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image img {
+		width: 35px;
+		height: 35px;
+	}
+
+	/* admin system setting page */
+	.system-setting-section {
+		padding: 60px 100px 200px; 
+	}
+
+	/* admin notifications page */
+	.all-course-table tr td.details.long {
+		width: 500px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .role {
+		font-size: 11px;
+	}
+
+	/* course/lesson detail page */
+	.lesson-detail-section .notes-box {
+		padding: 25px 15px 0 15px;
+	}
+	.lesson-detail-section .notes-box .add-note-btn {
+		padding: 5px 8px;
+		font-size: 13px;
+	}
+	.lesson-detail-section .notes-box .single-note .note-title, 
+	.lesson-detail-section .notes-box .single-note .date {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.lesson-detail-section .notes-box .single-note .desc {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.lesson-detail-section .notes-box .all-notes-btn-cont {
+		bottom: 10px;
+	}
+	.lesson-detail-tab-content .detail-tab-box {
+		padding: 25px 50px 25px 25px;
+	}
+	.detail-tab-box .course-title {
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.detail-tab-box .meta-item.name {
+		width: auto;
+		min-width: unset;
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 auto;
+		        flex: 1 1 auto;
+	}
+	.detail-tab-box .meta-item .desc {
+		font-size: 16px;
+	}
+	.detail-tab-box.course-description,
+	.homework-tab-content .single-hw-item .hw-desc {
+		font-size: 15px;
+	}
+	.homework-tab-content .hw-action-buttons .button,
+	.homework-tab-content .hw-list.completed .hw-action-buttons .button {
+		font-size: 12px;
+		width: auto;
+		height: 35px;
+		line-height: 35px;
+		padding: 0 8px;
+		margin-right: 7px;
+	}
+
+	/* chatbox */
+	.chatbox .profile-image img,
+	.chat-detail-section.admin-chat .chatbox .profile-image img {
+		width: 100px;
+		height: 100px;
+	}
+	.chatbox .profile-list-bio .profile-name {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.chatbox .profile-list-bio .rating {
+		font-size: 14px;
+	}
+	.chatbox .profile-list-bio .request-label {
+		font-size: 16px;
+	}
+	.chatbox .user-info .lesson-history {
+		padding-left: 10px;
+	}
+	.chatbox .user-info .lesson-history-item {
+		font-size: 13px;
+	}
+	.chatbox .user-info .lesson-history-item .history-label i {
+		font-size: 12px;
+		width: 20px;
+		margin-right: 3px;
+	}
+	.chatbox .chatbox-action-buttons .button,
+	.chat-detail-section.admin-chat .chat-head .button {
+		width: 95px;
+	}
+	.chatbox .blank-space {
+		height: 300px;
+	}
+	.chatbox .messaging-header .chat-meta > *,
+	.chatbox .chat-message-area textarea {
+		font-size: 15px;
+	}
+	.chatbox .messaging-header .chat-meta .local-time {
+		font-size: 13px;
+	}
+
+	/* chat coversation page */
+	/* all coversation list */
+	.chat-detail-section .all-coversation-area,
+	.admin-chat.other.chat-detail-section .all-coversation-area {
+		max-height: 860px;
+	}
+	.all-conversation-list .single-chat .user-img img {
+		width: 50px;
+		height: 50px;
+	}	
+	.all-conversation-list .single-chat .user-img:after {
+		right: 0px;
+	}
+	.all-conversation-list .single-chat .user-chat-info {
+		margin-left: 10px;
+		width: calc(100% - 60px);
+	}	
+	/* chat page: chatbox */
+	.chatbox-area .chatbox .blank-space {
+		height: 300px;
+	}
+
+	/* admin chat page/conversations */	
+	.chat-detail-section.admin-chat.admin-user .chatbox .blank-space {
+		height: 508px;
+	}
+	.admin-chat.other.chat-detail-section .all-coversation-area {
+		max-height: 812px;
+	}
+
+	/* chat popup */
+	.chat-pop-box .chat-pop-inner {
+		max-height: 356px;
+	}
+
+	/* admin chat pop */
+	.admin-chat-pop .chat-pop-inner {
+		position: relative;
+	}
+	.admin-chat-pop.chat-pop-box .heading {
+		position: sticky;
+		top: 0;
+		left: 0;
+		z-index: 3;
+	}
+	.admin-chat-pop.chat-pop-box .chat-pop-inner {
+		overflow-y: auto;
+	}
+	.admin-chat-pop.chat-pop-box .all-conversation-list {
+		overflow-y: visible;
+		height: auto;
+	}
+
+	/* earning page */
+	.earning-section .earning-stats .single-stat {
+		min-width: unset;
+		width: 25%;
+	}
+
+	/* footer are */
+	.footer-area {
+		padding: 50px 0 25px;
+	}
+	.footer-column.four,
+	.footer-column.five {
+		margin-top: 15px;
+	}
+}
+
+
+
+/*Medium devices - Tablet layout (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	.math-search {
+		-webkit-box-flex: unset;
+		    -ms-flex-positive: unset;
+		        flex-grow: unset;
+		width: 50%;
+	}	
+	.logo-and-search {
+		margin-bottom: 15px;
+	}	
+	.main-menu {
+		width: auto;
+		-webkit-box-flex: 1 !important;
+		    -ms-flex-positive: 1 !important;
+		        flex-grow: 1 !important;
+		-webkit-box-ordinal-group: NaN;
+		    -ms-flex-order: unset;
+		        order: unset;
+		margin-top: 0;
+	}
+	.hero-area .hero-main-content {
+		min-height: 400px;
+		padding: 30px 0;
+	}
+	.home .subject-section .section-heading, 
+	.home .location-section .section-heading {
+		margin-left: 35%;
+	}
+	.home .img-text-box .section-img-cont, 
+	.home .img-text-box .section-text-cont {
+		padding: 0 30px !important;
+	}
+	.home .img-text-box .section-img-cont img {
+		max-width: 100%;
+		max-height: unset;
+		height: auto;
+	}
+	.head-teacher-section .img-text-box .section-img-cont img,
+	.about-us-section .img-text-box .section-img-cont img {
+		max-height: 400px;
+	}
+	.main-content section .section-text-cont {
+		margin-top: 35px;
+	}
+	.home .online-features-section {
+		padding: 50px 0;
+	}
+	.about-us-section .img-text-box:after {
+		bottom: -70px;
+	}
+
+	/* profile pages */
+	.profile.single .hero-area {
+		height: auto !important;
+	}
+	.profile.single .hero-bg,
+	.profile.single .hero-overlay,
+	.profile.single .hero-area .hero-main-content {
+		height: 400px !important;
+	}
+	.profile .profile-summary {
+		position: static;
+		margin-bottom: 35px;
+	}
+	.profile .user-profile {
+		max-width: 350px;
+		margin: 0 auto;
+	}
+	.profile .profile-image img {
+		margin-right: 0;
+	}
+	.profile .lesson-rate {
+		right: 20px;
+	}
+	.profile .main-content section,
+	.profile .main-content section.lectures {
+		padding: 40px;
+	}
+	.single-lecture {
+		padding: 15px 60px 15px 30px;
+	}
+	.more-lecture-btn {
+		margin-right: 60px;
+	}
+	.single-lecture .lecture-title,
+	.single-lecture .lecture-info .price,
+	.single-lecture .lecture-info .leturer-name {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.single-lecture .truncated-text {
+		display: block;
+		height: auto;
+		text-overflow: unset;
+		-webkit-line-clamp: unset;
+		-webkit-box-orient: unset;
+	}
+	.profile.student .main-content section.bio {
+		margin-top: 0;
+	}
+	.profile .main-content section.morestudents {
+		padding-top: 0;
+	}
+
+	/* profile archive page */
+	.profile.archive .hero-area {
+		height: auto !important;
+		padding: 30px 0;
+	}
+	.profile.archive .hero-bg, 
+	.profile.archive .hero-overlay, 
+	.profile.archive .hero-area .hero-main-content {
+		height: 100% !important;
+	}
+	.profile.archive .hero-area .hero-main-content {
+		/* min-height: 370px !important; */
+		padding: 0;
+	}
+	.advaned-filter-box {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+
+	/* find student page */
+	.search-count-filter-box {
+		bottom: 0;
+	}
+
+	/* book lesson page */
+	.booking-form .multi-search-form select {
+		min-width: 170px;
+	}
+
+	/* signup options page */
+	.signup-options .single-role {
+		width: 300px;
+		height: 300px;
+	}
+	.signup-options .signup-options-title {
+		font-size: 35px;
+	}
+	.signup-options-desc {
+		font-size: 22px;
+		line-height: 60px;
+	}
+	.signup-options .signup-role-img {
+		width: 160px;
+		height: 160px;
+		margin-bottom: 20px;
+	}
+	.signup-options .signup-role-title {
+		font-size: 40px;
+	}
+
+	/* send offer */
+	.profile-list .modal .main-content section,
+	.profile.single .modal .main-content section {
+		padding: 0;
+	}
+	.modal .send-offer-form-box {
+		padding: 0 !important;
+	}
+	.modal .send-offer-form-box .user-profile {
+		max-width: 100%;
+	}
+	.modal .send-offer-form-box .offer-tutor-info .profile-image img {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.modal .offer-tutor-info .current-lecture-player {
+		height: 300px;
+	}
+
+	/* logged in pages */
+	.loggedin-header {
+		padding: 10px 0;
+	}
+	.loggedin-header .loggedin-menu-button {
+		display: inline-block;
+	}
+	.loggedin-header #loggedin-menu-closer {
+		display: none;
+	}
+	.loggedin-header .loggedin-menu-cont {
+		position: fixed;
+		bottom: auto;
+		left: auto;
+		top: 0;
+		right: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+		background: rgba(0,0,0,0.9);
+		padding: 50px 50px 30px;
+		z-index: 999;
+		right: -200%;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.loggedin-header .main-menu {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.loggedin-header .main-menu li {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.loggedin-header .main-menu li a {
+		display: inline-block;
+		padding: 3px 0;
+		font-size: 20px;
+	}
+	.loggedin-header .main-menu li + li a {
+		margin-left: 0;
+	}
+	.dashboard-contents {
+		padding: 35px 0;
+	}
+	.dashboard-main-content > section,
+	.dashboard-main-content > section + section {
+		margin-top: 35px;
+	}
+
+	/* admin dashboard */
+	.admin-dashboard-content .dashboard-main-content > section {
+		margin-top: 0;
+	}
+	.admin-dashboard-content .dashboard-main-content > section + section {
+		margin-top: 35px;
+	}
+	.report-section .col-staff-activity {
+		width: 100%;
+	}
+	.staff-activity-content .content-table tbody td.action {
+		width: 150px;
+	}
+	.add-user-pop-box {
+		width: 500px;
+	}	
+	.add-user-pop-box .add-pop-inner {
+		padding: 0 50px 25px;
+	}
+	.admin-dashboard-content .notes-section .hw-pop-box {
+		position: absolute;
+		top: 50%;
+		right: unset;
+		left: 0;
+		width: 650px;
+	}
+	.admin-dashboard-content .notes-section .hw-pop-box .hw-pop-inner {
+		margin: 0;
+	}
+
+	/* view teacher sent offer page */
+	.breadcrumb-area {
+		padding: 10px 0;
+	}
+	.breadcrumb-area .breadcrumb-trail, 
+	.breadcrumb-area .breadcrumb-trail a {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.view-offers-section .section-heading .section-title {
+		font-size: 26px;
+	}
+	.offer-sender-section .section-heading .section-title {
+		font-size: 28px;
+	}
+	.active-request-view {
+		padding: 30px 30px 20px 40px;
+	}
+	.active-request-view .offer-detail .name {
+		font-size: 24px;
+	}
+	.active-request-view .subtitle {
+		font-size: 22px;
+		margin: 5px 0;
+	}
+	.active-request-view .name .level-name {
+		font-size: 20px;
+	}
+	.active-request-view .rate-time .icon {
+		margin-right: 5px;
+	}	
+	.active-request-view .rate-time .rate {
+		margin-right: 20px;
+	}
+	.active-request-view .sender-info .bio-name {
+		font-size: 24px;
+	}
+	.active-request-view .sender-info .rating {
+		font-size: 14px;
+	}
+	.active-request-view .offer-detail .sender-price {
+		font-size: 32px;
+	}
+	.active-request-view .lecture-thumb {
+		width: 120px;
+		max-height: 80px;
+	}
+	.active-request-view .description, 
+	.offer-sender-section .active-request-view .description {
+		font-size: 14px;
+	}
+	.active-request-view .meta-item {
+		font-size: 11px;
+		line-height: 20px;
+		margin-right: 20px;
+	}
+	.active-request-view .meta-item .icon {
+		width: 12px;
+		font-size: 14px;
+		margin-right: 3px;
+	}
+
+	/* student request page */
+	.request-filter-area .status-search {
+		max-width: unset;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.request-filter-area .status-search .status-text {
+		font-size: 13px;
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+	.all-student-requests .active-request-view {
+		padding: 30px 30px 20px 30px;
+	}
+	.all-student-requests .active-request-view .meta-item {
+		font-size: 13px;
+		margin-right: 15px;
+	}
+	.request-filter-area .multi-search-form select {
+		min-width: 140px;
+	}
+
+	/* course page */
+	.course-tabulation .tab-content,
+	.all-course-view .tab-content {
+		padding: 20px 15px 0;
+	}
+	.course-tabulation .nav-tabs {
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.course-tabulation .nav-tabs li {
+		margin-right: 20px;
+	}
+	.course-tabulation .nav-tabs li a {
+		font-size: 16px;
+	}
+	.all-course-table tr .date, 
+	.all-course-table tr .time, 
+	.all-course-table tr .duration, 
+	.all-course-table tr .price {
+		min-width: unset;
+	}
+	.all-course-table thead tr.course-list-heading {
+		height: 40px;
+	}
+	.all-course-table thead tr th {
+		font-size: 12px;
+	}
+	.all-course-table tbody tr.single-course-item {
+		height: 70px;
+	}
+	.all-course-table tbody td {
+		font-size: 11px;
+		line-height: 15px;
+		padding: 2px 5px;
+	}
+	.all-course-table tbody td .action-btn-wrap .button {
+		font-size: 8px;
+		width: 21px;
+		height: 16px;
+		line-height: 16px;
+		margin-right: 2px;
+		border-radius: 2px;
+	}
+	.all-course-table tbody td .action-btn-wrap .button img {
+		max-height: 8px;
+		max-width: 13px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .image {
+		margin-right: 8px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .image:after {
+		width: 7px;
+		height: 7px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .image img {
+		width: 30px;
+		height: 30px;
+	}
+	
+	/* offer page */
+	.all-course-table tr .details {
+		width: 128px;
+	}
+	.all-offer-section .all-course-table tr .status {
+		width: auto;
+		min-width: 80px;
+	}
+	.all-course-table tbody td.details {
+		letter-spacing: -0.5px;
+	}
+
+	/* teacher offer page */
+	.teacher-offer-section .all-course-view .tab-content {
+		padding: 20px 15px 0;
+	}
+	.teacher-offer-section .approved-offers .all-course-table tbody td {
+		font-size: 10px;
+	}
+	.all-course-table tr .appr-status {
+		width: 40px;
+	}
+	.all-offer-section .all-course-table tr .appr-status .approved .icon {
+		display: none;
+	}
+
+	/* student total request page */
+	.total-request-section .all-course-table .price,
+	.total-request-section .all-course-table .count,
+	.total-request-section .all-course-table .action {
+		min-width: unset;
+		width: auto;
+	}
+	.all-course-table tbody td.count .count-wrap {
+		font-size: 11px;
+		width: auto;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 10px;
+	}
+
+	/* admin total teacher/student page */
+	.admin-total-user-section .all-course-table td.rating-star .stars {
+		font-size: 10px;
+		margin-right: 4px;
+	}
+	.admin-total-user-section .all-course-table tbody td.action {
+		width: unset;
+		text-align: center;
+	}
+	.admin-total-user-section .all-course-table td.total-paid {
+		min-width: unset;
+	}
+
+	/* admin withdraw request page */
+	.all-withdraw-request.all-course-view .tab-content {
+		padding: 20px 10px 0;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.action {
+		width: 90px;
+	}
+	.all-withdraw-request .tab-content thead tr th,
+	.all-withdraw-request .tab-content .rejected-withdraw thead tr th,
+	.all-withdraw-request .tab-content .rejected-withdraw tbody tr td.details {
+		font-size: 10px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody tr td {
+		font-size: 9px;
+		line-height: 13px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image:after {
+		right: 0px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image img {
+		width: 30px;
+		height: 30px;
+	}
+
+	/* admin email marketing page + add admin page form */
+	.admin-add-content .course-tabulation .nav-tabs {
+		justify-content: flex-start;
+	}
+	.admin-add-content .add-form-wrapper form,
+	.add-admin-section .add-admin-form {
+		max-width: 500px;
+	}	
+	.admin-add-content .add-form-wrapper form label,
+	.add-admin-section .add-admin-form label {
+		font-size: 16px;
+	}	
+	.admin-add-content .add-form-wrapper form input,
+	.admin-add-content .add-form-wrapper form select,
+	.admin-add-content .add-form-wrapper form textarea,
+	.add-admin-section .add-admin-form input,
+	.add-admin-section .add-admin-form select,
+	.add-admin-section .add-admin-form textarea {
+		font-size: 14px;
+	}
+	.admin-add-content .add-form-wrapper form select option,
+	.add-admin-section .add-admin-form select option {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.admin-add-content .add-form-wrapper form textarea {
+		min-height: 200px;
+	}
+
+	/* admin system setting page */
+	.system-setting-section {
+		padding: 50px 30px 100px;
+	}
+	.system-setting-section form .col-label-field {
+		width: 170px;
+	}
+	.system-setting-section form label, 
+	.system-setting-section form .label {
+		font-size: 14px;
+	}
+	.system-setting-section form input, 
+	.system-setting-section form select {
+		font-size: 15px;
+		max-width: 350px;
+	}
+	.system-setting-section form .action-btn {
+		margin-left: 5px;
+	}
+	.system-setting-section .form-submit-btn-cont {
+		max-width: 530px;
+	}
+	.system-setting-section form .smtp-note {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	/* admin notifications page */
+	.all-course-table tr td.details.long {
+		width: 350px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .role {
+		font-size: 10px;
+	}
+
+	/* lesson/course detail page */
+	.lesson-detail-tabulation .tab-content.lesson-detail-tab-content,
+	.course-tabulation .tab-content.homework-tab-content {
+		padding: 0;
+	}
+	.tabulation-header-buttons .button {
+		font-size: 14px;
+		width: 135px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.detail-tab-box .course-title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.lesson-detail-tab-content .homework-tabulation .nav-tabs {
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+	}
+	.course-tabulation .homework-tab-content .single-hw-item {
+		padding: 20px 0;
+	}
+	.homework-tab-content .single-hw-item .hw-title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.lesson-detail-section .notes-box {
+		margin-top: 25px;
+	}
+	.lesson-detail-section .notes-box,
+	.lesson-detail-section .hw-calendar {
+		border-radius: 4px;
+	}
+
+	/* chatbox */
+	.chatbox .profile-image img {
+		width: 120px;
+		height: 120px;
+	}
+	.chatbox .user-info .lesson-history {
+		padding-left: 25px;
+	}
+	.chatbox .chatbox-action-buttons .button {
+		width: 110px;
+	}
+	.chatbox .blank-space {
+		height: 250px;
+	}
+
+	/* chat coversation page */
+	.chat-detail-section .chat-head {
+		height: 55px;
+		padding: 10px 15px;
+	}
+	.chat-detail-section .chat-head .chat-head-title.user-name {
+		font-size: 20px;
+	}
+	/* all conversation list */
+	.chat-detail-section .all-coversation-area {
+		max-height: 870px;
+	}
+	.all-conversation-list .single-chat .user-img img {
+		width: 50px;
+		height: 50px;
+	}	
+	.all-conversation-list .single-chat .user-img:after {
+		right: 0px;
+	}
+	.all-conversation-list .single-chat .user-chat-info {
+		margin-left: 10px;
+		width: calc(100% - 60px);
+	}
+	/* chat page: chatbox */
+	.chatbox-area .chatbox .profile-list-bio .bio-image {
+		padding: 0;
+		margin: 0;
+	}
+	.chatbox-area .chatbox .user-info .profile-list-bio {
+		display: block;
+		text-align: center;
+	}
+	.chatbox-area .chatbox .profile-image img {
+		width: 100px;
+		height: 100px;
+	}
+	.chatbox-area .chatbox .profile-list-bio .profile-name {
+		font-size: 20px;
+		line-height: 24px;
+		margin-top: 5px;
+	}
+	.chatbox-area .chatbox .profile-list-bio .rating {
+		font-size: 13px;
+		margin: 5px 0 7px;
+	}
+	.chatbox-area .chatbox .profile-list-bio .request-label {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	.chatbox .lesson-rate .price {
+		font-size: 22px;
+		letter-spacing: unset;
+		margin-right: 1px;
+	}
+	.chatbox-area .chatbox .user-info .lesson-history {
+		border-left: none;
+		border-top: 1px solid #E9ECEF;
+		padding-left: 0;
+		padding-top: 15px;
+	}
+	.chatbox-area .chatbox .user-info .lesson-history-item {
+		font-size: 14px;
+	}
+	.chatbox .user-info .lesson-history-item + .lesson-history-item {
+		margin-top: 10px;
+	}
+	.chatbox-area .chatbox .chatbox-action-buttons {
+		margin-bottom: 15px;
+	}
+	.chatbox-area .chatbox .blank-space {
+		height: 150px;
+	}
+	.chatbox-area .chatbox .chat-message-area textarea {
+		min-height: 150px;
+		padding: 10px 15px;
+	}
+	.chatbox-area .chatbox .chat-message-area {
+		padding: 1px 10px 10px;
+	}
+	.chatbox-area .chatbox .chat-message-area .messaging-header {
+		padding: 10px 0;
+	}
+	.chatbox-area .chatbox .messaging-header .chat-meta > * {
+		padding: 0;
+		border: none;
+	}
+	.chatbox-area .chatbox .chat-message-area .message-send-btn {
+		font-size: 14px;
+		padding: 8px 24px;
+	}
+
+	/* admin chat page/conversations */	
+	.admin-chat .chat-head .admin-bio-head .bio-image img {
+		width: 40px;
+		height: 40px;
+	}	
+	.admin-chat .chat-head .admin-bio-head .profile-name {
+		font-size: 16px;
+	}	
+	.admin-chat .chat-head .admin-bio-head .user-role {
+		font-size: 13px;
+	}
+	.chat-detail-section.admin-chat.admin-user .chatbox .blank-space {
+		height: 584px;
+	}
+	.admin-chat.other.chat-detail-section .all-coversation-area {
+		max-height: 787px;
+	}
+
+	/* chat popup */
+	.chat-pop-box .chat-pop-inner {
+		max-height: 251px;
+	}
+
+	/* earning page */
+	.earning-section .earning-stats .single-stat .amount {
+		font-size: 26px;
+	}
+	.earning-section .area-label {
+		font-size: 20px;
+	}
+
+	/* add homework calendar popup */
+	.hw-pop-box {
+		position: relative;
+		top: unset;
+		right: unset;
+	}
+	.hw-pop-box .hw-pop-inner {
+		width: 90%;
+		margin: 20px auto 0;
+	}
+
+	/* view offer popup */
+	.view-offer-pop {
+		padding: 10px 0 20px;
+	}
+	.view-offer-pop .active-request-view {
+		padding: 0 40px 0 20px;
+	}
+	.view-offer-pop .active-request-view .sender-info .rating {
+		width: 100%;
+	}
+	.view-offer-pop .active-request-view .rate .price {
+		font-size: 26px;
+	}
+	.view-offer-pop .active-request-view .offer-title {
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.view-offer-pop .active-request-view .meta-item .label, 
+	.view-offer-pop .active-request-view .meta-item .desc {
+		font-size: 15px;
+	}
+}
+
+
+
+/*Small devices - Mobile layout (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	.math-search input,
+	.math-search select,
+	.math-search button.math-search-submit,
+	.language-search-btn,
+	.reg-btn {
+		height: 35px !important;
+		line-height: 33px !important;
+	}
+	.logo-and-search {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+		margin-bottom: 15px;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.header-area .logo {
+		margin-right: 0;
+	}
+	.math-search {
+		width: 100%;
+		margin-top: 20px;
+	}	
+	/* .math-search .input-group>.form-control {
+		flex: 1 1 0%;
+	} */
+	.math-search input.math {
+		width: 58%;
+	}
+	.math-search .math-level {
+		width: 40%;
+		font-size: 12px;
+	}
+	.math-search button.math-search-submit {
+		margin-left: 5px;
+	}
+	.main-menu {
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		margin-top: 20px;
+		/* width: 100%; */
+	}	
+	.main-menu li a {
+		padding: 0 6px;
+		font-size: 12px;
+	}
+	.language-search-btn {
+		margin-left: 0;
+	}
+	.reg-btn {
+		padding: 0 10px;
+	}
+	.hero-area .hero-main-content {
+		min-height: 325px;
+		padding: 30px 0;
+	}
+	.hero-title {
+		font-size: 26px;
+		line-height: 36px;
+		margin-bottom: 20px;
+		font-weight: 500;
+	}
+	.hero-description {
+		max-width: 100%;
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.home .subject-section, 
+	.home .head-teacher-section, 
+	.home .howto-teacher-section, 
+	.home .online-features-section, 
+	.home .about-us-section, 
+	.home .why-us-section, 
+	.home .location-section, 
+	.home section .child-section {
+		padding: 35px 0;
+	}
+	.home .subject-section .section-heading, 
+	.home .location-section .section-heading {
+		margin-left: 0;
+	}
+	.home .section-heading {
+		margin-bottom: 15px;
+	}
+	.home .section-subtitle {
+		font-size: 22px;
+	}	
+	.home .section-title, 
+	.home .profile .section-title,
+	.location-section .section-heading .section-title {
+		font-size: 26px;
+	}
+	.home .section-text-cont .text {
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.home .img-text-box .section-img-cont, 
+	.home .img-text-box .section-text-cont {
+		padding: 0 15px !important;
+	}
+	.home .img-text-box .section-img-cont img {
+		min-height: 150px;
+	}
+	.online-features-section .online-features .single-item {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.home .about-us-section {
+		padding: 70px 0 100px;
+	}
+	.about-us-section .img-text-box:before {
+		top: -70px;
+	}
+	.why-us-section .section-heading .section-desc {
+		font-size: 13px;
+		line-height: 20px;
+		margin-top: 10px;
+	}
+	.whys-us-reasons .single-reason {
+		height: auto;
+		min-height: 200px;
+		margin-top: 30px;
+	}	
+	.whys-us-reasons .single-reason .reason-name {
+		min-height: unset;
+		height: auto;
+		font-size: 16px;
+	}
+	.location-map .location-text {
+		font-size: 12px;
+		width: 190px;
+		padding: 15px 10px;
+		top: 4px;
+		right: 7%;
+		border-radius: 10px;
+		background: rgba(255, 255, 255, 0.85);
+	}	
+	.location-map .location-text.loc-uk {
+		top: 15px;
+	}
+
+	/* profile pages */
+	.profile.single .hero-bg,
+	.profile.single .hero-overlay,
+	.profile.single .hero-area .hero-main-content {
+		height: 325px !important;
+	}
+	.profile .hero-title-name {
+		font-size: 40px;
+	}
+	.profile .hero-main-content .rating {
+		font-size: 20px;
+		margin: 15px 0 0;
+	}
+	.profile .hero-subtitle {
+		font-size: 18px;
+		font-weight: 500;
+		margin-top: 15px;
+	}
+	.hero-main-content .local-time {
+		font-size: 15px;
+		line-height: 1;
+	}
+	.profile .profile-name {
+		font-size: 24px;
+	}
+	.profile.single .hero-area .hero-main-content {
+		position: static;
+		padding: 0;
+		overflow-x: hidden;
+	}
+	.profile.single .hero-menu-tabs-container,
+	.profile.single .hero-menu-tabs-container.hero-main-content--top {
+		position: fixed;
+		bottom: auto;
+		left: auto;
+		top: 0;
+		right: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+		background: rgba(0,0,0,0.9);
+		padding: 50px 50px 30px;
+		z-index: 999;
+		right: -200%;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.profile.single .hero-menu-tabs-container .hero-menu-tab + .hero-menu-tab {
+		margin-left: unset;
+	}
+	.profile.single .hero-menu-tab,
+	.profile.single .hero-main-content--top .hero-menu-tab {
+		display: block;
+		padding: 10px;
+		color: #fff;
+		font-size: 20px;
+		line-height: 1;
+		letter-spacing: 2px;
+		font-weight: 500;
+		margin: 0 0 10px;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.profile.single .hero-menu-tab:hover,
+	.profile.single .hero-main-content--top .hero-menu-tab:hover {
+		color: #ff6d6d;
+	}
+	.profile.single .hero-menu-tab-slider {
+		display: none !important;
+	}
+	.profile.single .mobile-menu-button,
+	.profile.single #mobile-menu-closer {
+		display: inline-block;
+	}
+	.profile.single .main-content section, 
+	.profile.single .main-content section.lectures {
+		padding: 30px 15px;
+	}
+	.current-lecture-player {
+		height: 250px;
+	}
+	.current-lecture .lecture-title {
+		font-size: 14px;
+	}
+	.lecture-title,
+	.lecture-date {
+		line-height: 1;
+	}
+	.single-lecture {
+		padding: 15px 15px 15px 30px;
+	}
+	.more-lecture-btn {
+		margin-right: 15px;
+	}
+	.section-title {
+		font-size: 28px;
+	}	
+	.bio .section-heading .iconic-image {
+		width: 80px;
+		max-height: 80px;
+	}
+	.bio-subtitle {
+		font-size: 18px;
+	}
+	.single-subject-detail {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.single-subject-detail .detail-column {
+		width: 50%;
+	}
+	.single-subject-detail .detail-column.three {
+		width: 100%;
+	}
+	.avail-table th {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.avail-table .checked {
+		width: 15px;
+		height: 15px;
+		line-height: 17px;
+		font-size: 8px;
+	}
+	.rating-sec .rating .point {
+		font-size: 40px;
+	}
+	.rating-bars .star-label {
+		font-size: 16px;
+		width: 55px;
+	}
+	.rating-bars .progress {
+		width: 200px;
+	}
+	.rating-bars .star-count {
+		font-size: 14px;
+	}
+	.student-img {
+		width: 50px;
+		height: 50px;
+		margin-right: 10px;
+	}
+	.review-info {
+		width: calc(100% - 60px);
+	}
+	.student-name {
+		font-size: 20px;
+	}
+	.review-text {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.review-meta, 
+	.review-meta a {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.profile.student .main-content section.bio {
+		margin-top: 0;
+	}	
+	.profile .main-content section.morestudents {
+		padding-top: 0;
+	}
+	.profile .main-content section.morestudents .section-content {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.profile.single .modal .main-content section.morestudents .section-content {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.profile-list-bio {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.profile-list-bio .bio-image {
+		width: 100%;
+		margin-right: 0;
+	}
+	.profile-list-bio .bio-image .profile-image {
+		text-align: center;
+	}
+	.profile-list-bio .bio-image img {
+		margin: 0;
+	}	
+	.profile-list-bio .online-status {
+		font-size: 9px;
+		line-height: 1;
+		padding: 3px 5px;
+		right: auto;
+		left: 0;
+	}
+	.profile-list-bio .bio-image .lesson-rate {
+		right: auto;
+		left: calc(50% + 25px);
+	}
+	.profile-list-bio .bio-desc {
+		width: 100%;
+		margin-top: 15px;
+	}
+	.profile-list-bio .bio-desc .send-offer-btn {
+		position: static;
+		margin-top: 15px;
+	}
+
+	/* profile archive page */
+	.profile.archive .hero-bg {
+		background-position: center center;
+	}
+	.profile.archive .hero-title {
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+	.find-multi-search-box {
+		margin-bottom: 20px;
+	}
+	.multi-search-form {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.multi-search-form .input-group {
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+		width: 100%;
+	}
+	.multi-search-form .form-group {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 auto;
+		        flex: 1 1 auto;
+	} 
+	.multi-search-form label, 
+	.search-count-filter label {
+		font-size: 11px;
+	}
+	.multi-search-form select, 
+	.multi-search-submit, 
+	.search-count-filter select,
+	.status-search .button,
+	.date-select-form input {
+		font-size: 10px;
+		height: 35px !important;
+		line-height: 35px !important;
+	}
+	.multi-search-form select {
+		min-width: unset;
+		padding-left: 7px;
+	}
+	.multi-search-submit {
+		margin-left: 0;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	.status-search .button,
+	.date-select-form input {
+		font-size: 13px;
+	}
+	.category-search .button {
+		line-height: 30px !important;
+	}
+	.search-count-filter-box {
+		position: static;
+		margin-top: 10px;
+	}
+	.search-count-filter {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.search-count-filter .form-group {
+		min-width: unset;
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 auto;
+		        flex: 1 1 auto;
+	}
+	.search-count-filter select {
+		font-size: 14px;
+	}
+	.profile.archive .main-content section.morestudents .section-content {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.all-students .all-profile-link {
+		font-size: 15px;
+	}
+
+	/* book lesson page */
+	.hero-booking-featuers .lesson-booking-features li {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.booking .main-content .booking-section {
+		margin: 35px 0 0;
+	}
+	.booking-form .multi-search-form .input-group {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.booking-form .multi-search-form .form-group {
+		-webkit-box-flex: unset;
+		    -ms-flex: unset;
+		        flex: unset;
+		width: 100%;
+		min-width: unset;
+	}
+	.booking-form .multi-search-form .form-group + .form-group {
+		margin-top: 10px;
+	}
+	.booking-form .multi-search-form label,
+	.booking-form .multi-search-form select,
+	.custom-date-picker input,
+	.booking-form .time-picker input[type="time"],
+	.booking-form .text-message textarea {
+		font-size: 14px;
+	}
+	.booking-form .multi-search-form select {
+		width: 100%;
+		min-width: unset;
+		border-radius: 5px;
+	}
+	.booking-form select,
+	.booking-form input[type="time"] {
+		height: 40px !important;
+		line-height: 40px !important;
+	}
+	.booking-form .time-picker .form-check-inline {
+		width: 100%;
+		margin: 0;
+	}
+	.booking-form .time-picker input[type="time"] {
+		min-width: unset;
+	}
+	.booking-form .time-picker .time-picker-separator {
+		font-size: 22px;
+		margin: 0 15px;
+	}
+	.custom-date-picker .date-picker-box {
+		padding: 5px 10px 10px;
+	}	
+	.custom-date-picker .date-picker-wrapper .month-element, 
+	.custom-date-picker .month-name .select-wrapper {
+		font-size: 22px;
+		-webkit-transform: translateX(-40px);
+		        transform: translateX(-40px);
+	}	
+	.custom-date-picker .month-wrapper table .week-name {
+		font-size: 15px;
+		font-weight: 300;
+		letter-spacing: 0.7px;
+	}	
+	.custom-date-picker .month-wrapper table td {
+		height: 40px;
+	}	
+	.custom-date-picker .month-wrapper table .day {
+		width: 24px;
+		height: 24px;
+		line-height: 23px;
+		font-size: 12px;
+	}
+
+	/* registration page */
+	.registration-features .reg-feature-label {
+		font-size: 18px;
+		line-height: 22px;
+		margin-top: 20px;
+	}
+	.reg-form-guide .nav-tabs li a {
+		padding: 12px 10px;
+	}
+	
+	/* signup options page */
+	.signup-options-section {
+		/* position: static;
+		transform: none; */
+		margin-top: 0;
+		padding: 50px 0;
+	}
+	.signup-options .signup-roles {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		            -ms-grid-row-align: center;
+		        align-items: center;
+	}
+	.signup-options .single-role {
+		width: 100%;
+		max-width: 300px;
+		height: auto;
+	}
+	.signup-options .single-role + .single-role {
+		margin-left: 0;
+		margin-top: 35px;
+	}
+	.signup-options .signup-options-title {
+		font-size: 30px;
+	}
+	.signup-options-desc {
+		font-size: 18px;
+		line-height: 50px;
+	}
+	.signup-options .signup-role-img {
+		width: 120px;
+		height: 120px;
+		margin-bottom: 20px;
+	}
+	.signup-options .signup-role-title {
+		font-size: 34px;
+	}
+
+	/* login page */
+	.login-form-box {
+		margin-top: 50px;
+		padding: 40px 20px;
+	}	
+	.login-form-title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.login-form .form-check-label,
+	.login-form-box .forgot-pass-link {
+		font-size: 15px;
+	}
+
+	/* send offer */
+	.profile .modal-dialog {
+		max-width: 98%;
+	}
+	.modal .send-offer-main-title {
+		font-size: 26px;
+	}
+	.send-offer-form-box {
+		font-size: 15px;
+	}
+	.send-offer-form-box .offer.single-item {
+		margin-top: 20px;
+	}
+	.profile-list .modal .offer-tutor-info .row [class|="col"] {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.modal .offer-tutor-info .profile-summary {
+		margin-bottom: 20px;
+	}
+	.modal .profile .profile-image img,
+	.modal .send-offer-form-box .offer-tutor-info .profile-image img {
+		width: 120px;
+		height: 120px;
+	}
+	.modal .bio-image .lesson-rate,
+	.modal .send-offer-form-box .offer-tutor-info .lesson-rate {
+		left: calc(50% + 17px);
+	}
+	.student-breif .offer.single-item,
+	.send-offer-form .reg-form-check .desc {
+		width: 100%;
+	}
+	.send-offer-form .form-check-inline.single-item {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.send-offer-form .reg-form-check .desc {
+		font-size: 14px;
+	}
+	.send-offer-form .offer-price label {
+		width: 100%;
+	}
+	.modal .offer-tutor-info .lecture-title {
+		font-size: 14px;
+	}
+
+	/* logged in pages */
+	.loggedin-header .loggedin-menu-cont {
+		padding: 50px 25px 25px;
+	}
+	.loggedin-header .main-menu li {
+		margin: 7px 0;
+	}
+	.loggedin-header .main-menu li a {
+		font-size: 16px;
+	}
+	.dashboard-main-content .section-heading {
+		margin-bottom: 20px;
+	}
+	.dash-sum-items .single-dash-sum-item {
+		padding: 20px 15px;
+	}
+	.single-dash-sum-item .dash-sum-number {
+		font-size: 26px;
+	}
+	.single-dash-sum-item .dash-sum-name {
+		min-height: unset;
+	}
+	.notes-box .single-note .note-title, .notes-box .single-note .date {
+		font-size: 14px;
+	}
+
+	/* view teacher sent offer page */
+	.breadcrumb-area .breadcrumb-trail, 
+	.breadcrumb-area .breadcrumb-trail a {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.breadcrumb-area .breadcr-separator {
+		font-size: 8px;
+		margin: 0 10px;
+	}	
+	.view-offers-section .section-heading {
+		padding: 15px 15px 15px 20px;
+	}
+	.offer-sender-section .section-heading .section-title {
+		padding-left: 20px;
+	}
+	.view-offers-section .section-heading .section-title,
+	.offer-sender-section .section-heading .section-title {
+		font-size: 22px;
+	}
+	.active-request-view {
+		padding: 25px 15px 15px 20px;
+	}
+	.active-request-view .bio-image, 
+	.active-request-view .offer-detail {
+		width: 100%;
+	}
+	.active-request-view .offer-detail {
+		margin-top: 15px;
+	}
+	.active-request-view .offer-detail .name {
+		font-size: 18px;
+		line-height: 1;
+	}	
+	.active-request-view .name .level-name {
+		font-size: 14px;
+		display: block;
+	}
+	.active-request-view .subtitle {
+		font-size: 16px;
+		line-height: 20px;
+		margin: 5px 0 10px;
+	}	
+	.active-request-view .rate-time {
+		font-size: 16px;
+	}	
+	.active-request-view .description, 
+	.offer-sender-section .active-request-view .description {
+		margin: 10px 0 0;
+	}	
+	.active-request-view .meta-item, 
+	.active-request-view .metadata .meta-item + .meta-item,
+	.active-request-view .meta-item, 
+	.offer-sender-section .active-request-view .metadata .meta-item + .meta-item {
+		font-size: 12px;
+		line-height: 1;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.active-request-view .bio-image .online-status {
+		left: 0;
+	}
+	.active-request-view .offer-detail .heading {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}	
+	.active-request-view .offer-detail .heading .sender-info {
+		width: 100%;
+	}
+	.active-request-view .offer-detail .sender-price, 
+	.active-request-view .lecture-thumb {
+		margin-top: 15px;
+	}
+	.active-request-view .metadata-action-buttons {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.active-request-view .metadata-action-buttons {
+		margin-top: 0;
+	}
+	.active-request-view .metadata-action-buttons .button {
+		margin-top: 10px;
+	}
+
+	/* student request page */
+	.request-filter-area .page-title {
+		font-size: 20px;
+		line-height: 1;
+	}
+	.request-filter-area .status-search {
+		display: block;
+		margin: 30px 0 0;
+		text-align: center;
+	}
+	.request-filter-area .status-search .status-text {
+		margin: 0 0 10px;
+	}
+	.request-filter-area .multi-search-form select {
+		min-width: unset;
+	}
+	.request-filter-area .multi-search-form .price-filter-box {
+		width: 100%;
+		margin: 0 0 15px;
+	}
+	.request-filter-area .multi-search-form label {
+		font-size: 11px;
+		margin-bottom: 10px;
+	}
+	.request-filter-area .multi-search-form select {
+		min-width: unset;
+		padding-left: 5px;
+	}
+	.request-filter-area .multi-search-form select {
+		font-size: 10px;
+	}
+	.request-filter-area .multi-search-form .price-filter-box select {
+		font-size: 12px;
+	}
+	.request-filter-area .multi-search-form select option {
+		font-size: 12px;
+	}
+	.request-filter-area .multi-search-submit {
+		font-size: 13px;
+	}
+	.student-request-section .more-offer-btn {
+		font-size: 15px;
+	}
+	.all-student-requests .active-request-view {
+		padding: 20px 10px;
+	}
+	.all-student-requests .active-request-view .heading .rate .price {
+		font-size: 20px;
+	}
+	.all-student-requests .active-request-view .metadata-action-buttons {
+		margin-top: 0;
+	}
+	.all-student-requests .heading .metadata-action-buttons .button {
+		width: auto;
+		padding: 0 5px;
+		height: 28px;
+		line-height: 28px;
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+
+	/* course page */
+	.course-tabulation .tab-content,
+	.all-course-view .tab-content {
+		padding: 10px;
+	}
+	.tabulation-header {
+		padding: 0 10px;
+	}
+	.course-tabulation .nav-tabs {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.course-tabulation .nav-tabs li {
+		margin-right: 10px;
+	}	
+	.course-tabulation .nav-tabs li a {
+		font-size: 14px;
+		padding: 5px;
+	}
+	.course-tabulation .nav-tabs li a:after {
+		height: 1px;
+	}
+	.all-course-table tr .date, 
+	.all-course-table tr .time, 
+	.all-course-table tr .duration, 
+	.all-course-table tr .price {
+		min-width: unset;
+	}
+	.all-course-table thead tr.course-list-heading {
+		display: none;
+	}
+	.all-course-table tbody tr.single-course-item {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+		height: auto;
+		border: 1px solid #F0F2F3;
+		padding: 10px 5px;
+		margin-bottom: 20px;
+		box-shadow: 0 2px 5px 0 rgba(3, 17, 138, 0.15);
+	}
+	.all-course-table tbody tr.single-course-item:last-child {
+		margin-bottom: 0;
+	}
+	.all-course-table tbody td,
+	.all-course-table tbody td.details {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+		font-size: 13px;
+		line-height: 18px;
+		text-align: left;
+	}
+	.all-course-table tbody td:before {
+		display: inline-block;
+		content: attr(data-title)": ";
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	.all-course-table tbody td.teacher-name {
+		width: 100%;
+		margin-bottom: 7px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap {
+		width: 100%;
+		margin-top: 4px;
+	}
+	.all-course-table tbody td.action {
+		width: 100%;
+		margin-top: 7px;
+	}
+	.all-course-table tbody td .action-btn-wrap .button {
+		width: 25px;
+		height: 20px;
+		line-height: 20px;
+		margin-right: 3px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .image img {
+		width: 40px;
+		height: 40px;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .image:after {
+		width: 10px;
+		height: 10px;
+	}
+	.all-course-table tbody td .review-wrap {
+		padding: 1px 7px 1px 7px;
+		line-height: 1;
+		border-radius: 3px;
+	}
+	.all-course-table tbody td .review-wrap .star {
+		font-size: 8px;
+		line-height: 13px;
+	}
+	
+	/* offer page */
+	.all-offer-section .all-course-table tr .status {
+		min-width: unset;
+	}
+	.all-course-table tbody td.details {
+		display: block;
+		width: 100%;
+		letter-spacing: unset;
+	}
+
+	/* teacher offer page */
+	.teacher-offer-section .course-tabulation .nav-tabs {
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+	}
+	.teacher-offer-section .course-tabulation .nav-tabs li {
+		margin-right: 0;
+	}
+	.teacher-offer-section .all-course-view .tab-content {
+		padding: 10px;
+	}
+	.teacher-offer-section .approved-offers .all-course-table tbody td {
+		font-size: 13px;
+	}
+	.all-course-table tr .appr-status {
+		width: auto;
+	}
+	/* .all-offer-section .all-course-table tr .appr-status .approved .icon {
+		display: inline-block;
+		width: 30px;
+		height: 17px;
+		line-height: 14px;
+		margin-top: 0;
+		margin-left: 3px;
+		font-size: 10px;
+		border-radius: 3px;
+	}
+	.all-offer-section .all-course-table tr .appr-status .approved .icon img {
+		max-width: 16px;
+		max-height: 10px;
+	} */
+
+	/* student total request page */
+	.all-course-table tbody td.count .count-wrap {
+		font-size: 11px;
+		height: auto;
+		line-height: 16px;
+	}
+
+	/* admin total teacher/student page */
+	.admin-total-user-section .all-course-table tbody td.action {
+		width: 100%;
+	}
+	.breadcrumb-area .admin-search-box .admin-search-form input {
+		width: 200px;
+	}
+	.breadcrumb-area .admin-search-box .admin-search-form button {
+		width: 100px;
+	}
+	.admin-total-user-section .more-btn {
+		font-size: 15px;
+		margin: 20px 20px 0 0;
+	}
+
+	/* lesson/course detail page */
+	.lesson-detail-tabulation .tabulation-header,
+	.lesson-detail-tab-content .detail-tab-box.homework-tabulation {
+		padding: 5px 10px;
+	}
+	.lesson-detail-tabulation .tabulation-header-buttons {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		text-align: right;
+	}
+	.lesson-detail-tabulation .nav-tabs {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.lesson-detail-tabulation .nav-tabs li {
+		width: 100%;
+	}
+	.tabulation-header-buttons .button {
+		font-size: 12px;
+		width: 115px;
+		height: 26px;
+		line-height: 26px;
+	}
+	.lesson-detail-tab-content .detail-tab-box {
+		padding: 20px 15px;
+	}	
+	.detail-tab-box .course-title {
+		font-size: 18px;
+		line-height: 25px;
+	}	
+	.detail-tab-box .meta-item {
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: end;
+		    -ms-flex-align: end;
+		        align-items: flex-end;
+		margin-bottom: 8px;
+	}
+	.detail-tab-box .meta-item:last-child {
+		margin-bottom: 0;
+	}
+	.detail-tab-box .meta-item .label, 
+	.detail-tab-box .meta-item .desc {
+		font-size: 15px;
+		line-height: 20px;
+		margin: 0;
+	}
+	.detail-tab-box .meta-item .label:after {
+		content: ": ";
+		margin-right: 5px;
+	}
+	.detail-tab-box.course-description .label {
+		font-size: 16px;
+	}
+	.detail-tab-box.course-description, 
+	.homework-tab-content .single-hw-item .hw-desc {
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.lesson-detail-tab-content .homework-tabulation .nav-tabs li + li {
+		line-height: 1;
+	}
+	.homework-tab-content .single-hw-item .hw-title {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.homework-tab-content .hw-action-buttons {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		/* justify-content: space-between; */
+	}
+	.homework-tab-content .hw-action-buttons .button, 
+	.homework-tab-content .hw-list.completed .hw-action-buttons .button {
+		font-size: 10px;
+		width: auto;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 5px;
+		margin-right: 7px;
+	}
+	.homework-tab-content .single-hw-item .hw-meta span:first-child {
+		margin: 0;
+		margin-right: 15px;
+	}
+
+	/* admin dashboard */
+	.admin-dashboard-content section .list-view-box, .notes-section .col-notifications .notifications-content, .notes-section .col-notes .notes-content, .notes-section .col-add-note-calendar .add-note-content {
+		padding: 20px 10px 10px;
+	}
+	.report-section .col-new-reports, 
+	.report-section .col-staff-activity,
+	section .custom-column-wrap .col-status-box,
+	.notes-section .col-notifications, 
+	.notes-section .col-notes,
+	.notes-section .col-add-note-calendar,
+	.lesson-section .col-booked-lesson,
+	.lesson-section .col-new-publish-request {
+		width: 100%;
+		margin-top: 35px;
+	}
+	.admin-dashboard-content .dashboard-main-content > section + section {
+		margin-top: 0;
+	}
+	.admin-dashboard-content .dashboard-main-content .section-title {
+		font-size: 15px;
+	}
+	.tabled-section .list-view-content table.content-table {
+		text-align: left;
+	}
+	.tabled-section .content-table thead tr.table-heading {
+		display: none;
+	}
+	.tabled-section .content-table tbody tr.single-item {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap;
+		height: auto;
+		border: 1px solid #F0F2F3;
+		padding: 10px 5px;
+		margin-bottom: 20px;
+		box-shadow: 0 2px 5px 0 rgba(3, 17, 138, 0.15);
+		border-radius: 0;
+		height: auto;
+	}
+	.tabled-section .content-table tbody tr.single-item:last-child {
+		margin-bottom: 0;
+	}
+	.tabled-section .content-table tbody td:before {
+		display: inline-block;
+		content: attr(data-title)": ";
+		font-weight: 500;
+		margin-right: 5px;
+	}
+	.tabled-section .content-table tbody td {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: left;
+	}
+	.tabled-section .content-table tbody td.title,
+	.tabled-section .book-lesson-content.list-view-box .single-item .item-title,
+	.tabled-section .book-lesson-content.list-view-box .single-item .price {
+		font-size: 14px;
+	}
+	.book-lesson-content.list-view-box .single-item .item-desc {
+		font-size: 11px;
+	}
+	.tabled-section .content-table .single-item .item-col-1 {
+		margin-bottom: 0;
+	}
+	.tabled-section .content-table tbody td.name {
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.tabled-section .content-table tbody td.description {
+		width: 100%;
+		font-size: 13px;
+	}
+	.tabled-section .content-table tbody td.action {
+		width: 100%;
+		text-align: left;
+		display: flex;
+		margin-top: 7px;
+	}
+	.tabled-section .list-view-box .item-action-buttons .button {
+		width: 25px;
+		height: 20px;
+		line-height: 20px;
+		border-radius: 2px;
+	}
+	.tabled-section .book-lesson-content .content-table tbody tr.single-item {
+		height: auto;
+	}
+	.book-lesson-content .content-table tbody td,
+	.book-lesson-content .content-table tbody td.name .item-col-1,
+	.book-lesson-content .content-table tbody td.name .item-col-2 {
+		width: 100%;
+	}
+	.new-publish-content.list-view-box .single-item .subject-time:before {
+		width: 100%;
+	}
+	.new-publish-content.list-view-box .single-item td.action {
+		width: 100%;
+	}
+	.new-publish-content.list-view-box .single-item td.action .button {
+		width: auto !important;
+		height: 22px;
+		line-height: 22px;
+		border-radius: 3px;
+		padding: 0 7px !important;
+		margin-top: 0 !important;
+		margin-right: 5px;
+	}
+	.new-publish-content.list-view-box .single-item td.action .button:last-child {
+		margin-right: 0;
+	}
+	.book-lesson-content.list-view-box .single-item td.status .active:after {
+		top: -1px;
+    	right: -5px;
+	}
+	.add-user-pop-box {
+		width: 90%;
+	}
+	.add-user-pop-box .pop-close-cont button {
+		font-size: 16px;
+		padding: 5px 10px;
+	}
+	.add-user-pop-box .add-pop-inner {
+		padding: 0 10px 15px;
+	}
+	.add-user-pop-box .add-pop-inner .heading {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.add-user-pop-box .add-pop-form label,
+	.add-user-pop-box .add-pop-form .submit-btn {
+		font-size: 13px;
+		width: 75px;
+	}
+	.add-user-pop-box .add-pop-form input {
+		width: calc(100% - 80px);
+		padding: 0 5px;
+	}
+	.admin-dashboard-content .notes-section .hw-pop-box {
+		position: relative;
+		top: unset;
+		right: unset;
+		width: 100%;
+		margin: 15px auto 10px;
+	}
+	.admin-dashboard-content .notes-section .hw-pop-box .hw-pop-inner {
+		width: 100%;
+		margin: 0;
+	}
+
+	/* admin withdraw request page */
+	.all-withdraw-request.all-course-view .tab-content {
+		padding: 10px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody tr td,
+	.all-withdraw-request .tab-content .rejected-withdraw tbody tr td.details {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.action {
+		width: 100%;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image {
+		margin-right: 8px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image:after {
+		width: 10px;
+		height: 10px;
+		top: 5px;
+		right: -3px;
+	}
+	.all-withdraw-request .tab-content .rejected-withdraw tbody td.teacher-name .info-wrap .image img {
+		width: 40px;
+		height: 40px;
+	}
+
+	/* admin email marketing page */
+	.admin-add-content .course-tabulation .nav-tabs {
+		justify-content: center;
+	}
+	.all-course-table tbody td.email {
+		width: 100%;
+	}
+	.admin-add-content .add-form-wrapper form label,
+	.add-admin-section .add-admin-form label {
+		font-size: 15px;
+	}
+	.admin-add-content .add-form-wrapper form input,
+	.admin-add-content .add-form-wrapper form select,
+	.admin-add-content .add-form-wrapper form textarea,
+	.add-admin-section .add-admin-form input,
+	.add-admin-section .add-admin-form select,
+	.add-admin-section .add-admin-form textarea {
+		font-size: 13px;
+	}
+
+	/* admin add category page */
+	.all-course-table tbody td.category {
+		width: 100%;
+	}
+
+	/* add admin page */
+	.add-admin-section .add-admin-form-wrap {
+		padding: 50px 0 25px;
+	}
+
+	/* admin system setting page */
+	.system-setting-section {
+		padding: 50px 15px 100px;
+	}
+	.system-setting-section form .single-row {
+		flex-flow: row wrap;
+		margin-top: 30px;
+	}
+	.system-setting-section form .col-label-field,
+	.system-setting-section form .col-input-field {
+		width: 100%;
+	}
+	.system-setting-section form .col-input-field {
+		flex: unset;
+		flex-flow: row wrap;
+	}
+	.system-setting-section form .smtp-field .col-label-field,
+	.system-setting-section form .smtp-field .col-input-field {
+		width: auto;
+	}
+	.system-setting-section form .col-input-field .input-action-btn-cont {
+		order: 1;
+		width: 100%;
+		justify-content: flex-end;
+	}
+	.system-setting-section form .action-btn {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 13px;
+		margin-left: 10px;
+	}
+	.system-setting-section form .action-btn:first-child {
+		margin-left: 0;
+	}
+	.system-setting-section form input, 
+	.system-setting-section form select {
+		height: 35px;
+		line-height: 35px;
+		font-size: 14px;
+		max-width: 100%;
+		margin-top: 10px;
+		order: 2;
+	}
+	.system-setting-section form select option {
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.system-setting-section .form-submit-btn-cont {
+		max-width: 530px;
+	}
+	.system-setting-section form .smtp-note {
+		padding: 40px 0 10px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.system-setting-section form .smtp-note .title,
+	.system-setting-section form .additional-setting-title {
+		font-size: 20px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	/* admin notifications page */
+	.all-course-table tr td.details.long {
+		width: 100%;
+	}
+	.all-course-table tbody td.teacher-name .info-wrap .role {
+		font-size: 11px;
+	}
+
+	/* chatbox */
+	.chatbox .user-info {
+		padding: 15px;
+	}
+	.chatbox .profile-list-bio .bio-image {
+		padding: 0;
+		margin: 0;
+	}
+	.chatbox .user-info .profile-list-bio {
+		display: block;
+		text-align: center;
+	}
+	.chatbox .user-info .lesson-history {
+		border-left: none;
+		border-top: 1px solid #E9ECEF;
+		padding-left: 0;
+		padding-top: 15px;
+	}
+	.chatbox .chatbox-action-buttons {
+		margin-bottom: 15px;
+	}
+	.chatbox .user-info .lesson-history-item {
+		font-size: 14px;
+	}
+	.chatbox .user-info .lesson-history-item + .lesson-history-item {
+		margin-top: 10px;
+	}
+	.chatbox .blank-space {
+		height: 150px;
+	}
+	.chatbox .chat-message-area textarea {
+		min-height: 150px;
+		padding: 10px 15px;
+	}
+	.chatbox .chat-message-area {
+		padding: 1px 10px 10px;
+	}
+	.chatbox .chat-message-area .messaging-header {
+		padding: 10px 0;
+	}
+	.chatbox .messaging-header .response-type select option {
+		font-size: 14px;
+	}
+	.chatbox .messaging-header .chat-meta > * {
+		padding: 0;
+		border: none;
+	}
+	.chatbox .chat-message-area .message-send-btn {
+		font-size: 14px;
+		padding: 8px 24px;
+	}
+
+	/* chat coversation page */
+	.chat-detail-section.admin-chat.admin-user .chatbox .blank-space {
+		height: 150px;
+	}
+	.chat-detail-section .all-coversation-area,
+	.admin-chat.admin-user.chat-detail-section .all-coversation-area,
+	.admin-chat.other.chat-detail-section .all-coversation-area {
+		max-height: 314px;
+	}
+	.chat-detail-section.admin-chat .chat-head .button {
+		width: auto;
+		padding: 0 15px;
+	}
+
+	/* chat popup */
+	/* .chat-pop-box  {
+		display: none !important;
+	} */
+	.chat-pop-box.show {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.chat-pop-box .chat-pop-inner {
+		max-height: 136px;
+	}
+	.chat-pop-box .heading {
+		height: 30px;
+	}
+	.chat-pop-box .heading .title {
+		font-size: 14px;
+	}
+
+	/* earning page */
+	.earning-section .earning-stats {
+		-ms-flex-flow:  row wrap;
+		    flex-flow:  row wrap;
+		padding: 20px 5px;
+	}	
+	.earning-section .earning-stats .single-stat {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.earning-section .earning-stats .single-stat:nth-child(2) {
+		border-right: none;
+	}
+	.earning-section .earning-stats .single-stat:nth-last-of-type(-n+2) {
+		margin-bottom: 0;
+	}
+	.earning-section .earning-stats .single-stat .label {
+		font-size: 12px;
+		line-height: 15px;
+		min-height: 29px;
+		margin-bottom: 5px;
+	}
+	.earning-section .earning-stats .single-stat .amount {
+		font-size: 22px;
+	}
+	.earning-section .area-label {
+		font-size: 18px;
+		min-width: unset;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.earning-section .withdraw-button .pg-icon {
+		width: 18px;
+		height: 18px;
+		line-height: 18px;
+		margin-right: 2px;
+	}
+	.earning-section .show-filter-area {
+		margin: 15px 0 25px;
+	}
+	.earning-section .filter-options .single-option {
+		margin-bottom: 5px;
+	}
+	.earning-section .withdraw-options .single-option .withdraw-button, 
+	.earning-section .filter-options .single-option select {
+		font-size: 12px;
+		min-width: unset;
+		width: auto;
+		margin-right: 3px;
+	}
+	.earning-section .filter-options select {
+		font-size: 11px;
+		padding: 0 3px;
+	}
+
+	/* publish new course page */
+	.publish-course-section .with-btn {
+		margin-bottom: 7px !important;
+	}
+	.publish-course-section .with-btn .button {
+		font-size: 20px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		margin-left: 10px;
+	}
+	.publish-course-subjects .with-btn input {
+		width: calc(100% - 40px);
+	}
+	.publish-course-section .time-picker .with-btn input {
+		min-width: auto;
+		width: 110px;
+		font-size: 12px;
+	}
+	.publish-course-section .time-picker .with-btn .time-picker-separator {
+		font-size: 13px;
+		margin: 0 5px;
+	}
+
+	/* add homework calendar popup */
+	.hw-pop-box .hw-pop-inner {
+		width: 95%;
+	}
+	.hw-pop-box .add-hw-form {
+		padding: 0 10px 10px;
+	}
+	.add-hw-form .form-group.time-field,
+	.add-hw-form .form-group.attachment-field {
+		width: 100%;
+	}
+	.add-hw-form label {
+		font-size: 16px;
+	}
+	.add-hw-form input, 
+	.add-hw-form textarea,
+	.add-hw-form .attachment-field .custom-file-btn-wrapper,
+	.add-hw-form .custom-file-btn-wrapper .inputfile + label {
+		font-size: 13px;
+	}
+	.add-hw-form textarea {
+		min-height: 120px;
+	}
+
+	/* view offer popup */
+	.view-offer-pop {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
+		max-width: 95%;
+	}
+	.view-offer-popup-container.details-page {
+		position: relative;
+	}
+	.view-offer-popup-container.details-page .view-offer-pop {
+		top: -90px;
+		max-width: 98%;
+	}
+	.view-offer-pop .active-request-view {
+		padding: 0 15px;
+	}
+	.view-offer-pop .active-request-view .bio-image,
+	.view-offer-pop .active-request-view .offer-detail {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.view-offer-pop .active-request-view .profile-image img {
+		width: 100px;
+		height: 100px;
+	}
+	.view-offer-pop .active-request-view .bio-image .local-time {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.view-offer-pop .active-request-view .sender-info .bio-name {
+		font-size: 20px;
+	}
+	.active-request-view .sender-info .rating {
+		font-size: 13px;
+	}
+	.view-offer-pop .active-request-view .sender-info .bio-tag {
+		font-size: 15px;
+	}
+	.view-offer-pop .active-request-view .rate {
+		margin-top: 10px;
+	}
+	.view-offer-pop .active-request-view .rate .price {
+		font-size: 22px;
+	}
+	.view-offer-pop .active-request-view .offer-title {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.view-offer-pop .active-request-view .meta-item {
+		margin-right: 0;
+		margin-top: 12px;
+	}
+	.view-offer-pop .active-request-view .meta-item .label, 
+	.view-offer-pop .active-request-view .meta-item .desc {
+		font-size: 14px;
+	}
+
+	/* footer */
+	.footer-column.three {
+		margin-top: 15px;
+	}
+	.footer-column.five {
+		margin-top: 25px;
+	}
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.header-area .container-fluid > .row div[class|="col"] {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.home .section-subtitle {
+		font-size: 16px;
+	}	
+	.home .section-title, 
+	.home .profile .section-title,
+	.location-section .section-heading .section-title {
+		font-size: 20px;
+	}
+	.subject-section .subject-image {
+		width: 90px;
+		height: 90px;
+		line-height: 90px;
+	}
+	.subject-section .single-subject-box .subject-name {
+		font-size: 20px;
+	}
+	.location-map .location-text {
+		position: static;
+		width: 94% !important;
+		margin: 15px auto;
+		padding: 10px 15px;
+		font-size: 12px !important;
+		line-height: 20px !important;
+	}
+	.location-map .location-text .map-loc-name {
+		font-size: 15px !important;
+	}
+
+	/* profile pages */
+	.profile .user-profile {
+		max-width: 100%;
+	}
+	.profile .online-status {
+	    right: auto;
+	    left: calc(50% + 62px);
+	}
+	.profile .lesson-rate {
+	    right: auto;
+	    left: calc(50% + 25px);
+	}
+	.profile .lesson-rate .price {
+		font-size: 16px;
+		width: 45px;
+		height: 45px;
+		line-height: 43px;
+	}
+	.profile-list-bio .online-status {
+		font-size: 9px;
+		line-height: 1;
+		padding: 3px 5px;
+		right: auto;
+		left: 0;
+	}
+	.single-lecture {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.single-lecture .lecture-thumb {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.single-lecture .lecture-info {
+		width: 100%;
+	}
+	.profile .section-heading .iconic-image {
+		width: 50px;
+		max-height: 50px;
+		font-size: 22px;
+	}
+	.profile .section-title {
+		font-size: 22px;
+	}
+	.bio .section-heading .iconic-image {
+		width: 70px;
+		max-height: 70px;
+	}
+	.bio-subtitle {
+		font-size: 16px;
+	}
+	.qualific-info p {
+		width: 100%;
+	}
+	.rating-bars .progress {
+		width: 150px;
+	}
+	.rating-bars .progress {
+		height: 7px;
+	}
+	.avail-table th {
+		font-size: 11px;
+		line-height: 13px;
+		padding: 10px 3px;
+		font-weight: 500;
+	}
+	.day-period span {
+		margin-right: 5px;
+		width: 20px;
+	}
+	.profile-list .single-profile-list [class|="col"],
+	.featured-profiles .modal .send-offer-wrapper > .container > .row > [class|="col"] {
+		padding: 0;
+	}
+
+	/* admin dashboard */
+	.admin-dashboard-content .dash-sum-items > .row [class|="col"]:nth-child(odd) {
+		padding-right: 5px;
+	}
+	.admin-dashboard-content .dash-sum-items > .row [class|="col"]:nth-child(even) {
+		padding-left: 5px;
+	}
+	.admin-dashboard-content .single-dash-sum-item .dash-sum-name {
+		font-size: 11px;
+	}
+
+	/* registration page */
+	.registration .main-content section {
+		margin-top: 35px;
+	}
+	.reg-form-guide .nav-tabs li a {
+		font-size: 16px;
+		font-weight: 500;
+		padding: 10px 5px;
+	}
+	.reg-form-guide .nav-tabs li:first-child {
+		width: 100%;
+	}
+	.reg-form-guide .nav-tabs li:first-child a {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.reg-form-guide .nav-tabs li:last-child a {
+		border-top-right-radius: 0;
+		border-left: 1px solid #CED4DA;
+	}
+	.reg-form-guide .nav-tabs li + li a {
+		border-left: none;
+	}
+	.reg-form-guide .tab-content {
+		padding: 15px;
+	}
+	.reg-form-guide-list li {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.reg-form-guide-list li + li {
+		margin-top: 7px;
+	}
+
+	/* send offer */
+	.profile.single .modal-body > .container > .row [class|="col"] {
+		padding: 0;
+	}
+	.profile.single .modal .offer-tutor-info .row [class|="col"] {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.modal .send-offer-form-box .user-profile .short-info,
+	.featured-profiles .modal .send-offer-form-box .user-profile .short-info {
+		font-size: 12px;
+	}
+	.modal .bio-image .lesson-rate,
+	.modal .send-offer-form-box .offer-tutor-info .lesson-rate,
+	.featured-profiles .modal .bio-image .lesson-rate,
+	.featured-profiles .modal .send-offer-form-box .offer-tutor-info .lesson-rate {
+		left: calc(50% + 10px);
+	}
+
+	/* logged in pages */
+	.loggedin-header .user-status,
+	.loggedin-header .user-status .loggedin-user-name {
+		margin-left: 10px;
+	}
+	.loggedin-header .user-status .loggedin-user-name {
+		font-size: 11px;
+		line-height: 1;
+		max-width: 117px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.single-lesson .lesson-desc {
+		font-size: 13px;
+		height: auto;
+		-webkit-line-clamp: unset;
+	}
+	.list-view-box .single-item,
+	.homework-section .course-calendar-box, 
+	.our-teachers-section .notes-box {
+		padding: 20px 15px;
+	}
+	.list-view-box .section-heading {
+		padding: 0 15px;
+	}
+	.list-view-box .single-item {
+		-ms-flex-flow: row wrap;
+		    flex-flow: row wrap;
+	}
+	.list-view-box .single-item .item-col-1 {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.our-teachers-section .list-view-box .single-item .item-col-last {
+		margin-left: 50px;
+	}
+	.notes-box .notes-head {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.notes-box .single-note .desc {
+		font-size: 13px;
+		line-height: 20px;
+		/* display: -webkit-inline-box;
+		max-height: 60px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		word-wrap: break-word; */
+	}
+
+	/* footer */
+	.subscription-form input {
+		padding-left: 10px;
+	}
+	.subscription-form .submit-btn {
+		padding: 15px 10px;
+	}
+	.copyright {
+		font-size: 13px;
+	}
+}
+
+/* ----------------------------------------- */
+
+/*Devices within 1200px to 1500px*/
+@media (min-width: 1200px) and (max-width: 1499.98px) {
+	/* logged in pages */
+	.loggedin-header .main-menu,
+	.loggedin-header .main-menu li + li a {
+		margin-left: 20px;
+	}
+	.loggedin-header .main-menu li a {
+		font-size: 13px;
+	}
+	.profile .user-profile,
+	.dashboard .profile .bio {
+		padding: 25px;
+	}
+	.dashboard .profile .user-profile,
+	.dashboard .profile .bio {
+		padding: 20px;
+	}
+	.dashboard .profile .lesson-history-item,
+	.dashboard .profile-summary .lesson-history-item select {
+		font-size: 13px;
+	}
+	.dashboard .profile .bio {
+		font-size: 12px;
+	}
+	.dash-sum-items .single-dash-sum-item {
+		padding: 10px;
+		border-radius: 6px;
+	}
+	.single-dash-sum-item .dash-sum-image {
+		display: inline-block;
+		width: 55px;
+		height: 55px;
+	}	
+	.single-dash-sum-item .dash-sum-number {
+		font-size: 26px;
+		margin: 5px 0;
+	}	
+	.single-dash-sum-item .dash-sum-name {
+		font-size: 11px;
+		line-height: 15px;
+		min-height: 29px;
+	}
+	.active-lessons-section .single-lesson {
+		padding: 15px;
+	}
+	.our-teachers-section .list-view-box .single-item .item-col-last {
+		margin-left: 30px;
+	}
+
+	/* teacher dashboard page */
+	.dashboard .publish-course-link-cont .publish-course-link {
+		width: 155px;
+		height: 155px;
+	}	
+	.dashboard .publish-course-link-cont .publish-course-link .icon {
+		width: 50px;
+	}
+	.dashboard .publish-course-link-cont .publish-course-link .text {
+		font-size: 12px;
+	}
+
+	/* admin dashboard */
+	.new-publish-content.list-view-box .single-item td.action .button.view-details-btn {
+		width: auto;
+		padding: 0 20px;
+		margin-top: 0;
+	}
+	.tabled-section .content-table td.subject-time,
+	.new-publish-content.list-view-box .single-item td.action {
+		width: 280px;
+	}
+
+	/* view teacher sent offer page */
+	.active-request-view {
+		padding-right: 70px;
+	}
+	.active-request-view .bio-image {
+		width: 165px;
+	}
+	.active-request-view .offer-detail {
+		width: calc(100% - 175px);
+	}
+	.active-request-view .profile-image img {
+		width: 150px;
+		height: 150px;
+	}
+	.active-request-view .description {
+		font-size: 16px;
+	}
+	.active-request-view .meta-item {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.active-request-view .metadata-action-buttons .button {
+		font-size: 9px;
+		width: 80px;
+	}
+
+	/* student request page */
+	.all-student-requests .heading .metadata-action-buttons .button {
+		width: 75px;
+	}
+}
+
+
+
+/*Extra Large devices (more than 1500px)*/
+@media (min-width: 1500px) {
+	.profile .lesson-rate {
+		right: 40px;
+	}
+	.single-lecture {
+		padding: 15px 30px 15px 35px;
+	}
+	.current-lecture-player {
+		height: 450px;
+	}
+	.lecture-title {
+		font-size: 16px;
+	}
+	.more-lecture-btn {
+		margin-right: 30px;
+	}
+}
+
+
+
+/*Another Extra Large devices (more than 1800px)*/
+@media (min-width: 1800px) {
+	.profile .lesson-rate {
+		right: 90px;
+	}
+    .single-lecture {
+		padding: 15px 60px 15px 35px;
+	}
+	.single-lecture .lecture-thumb {
+		width: 100px;
+		height: 50px;
+	}
+	.single-lecture .lecture-info {
+		width: calc(100% - 110px);
+	}
+	.single-lecture.now-playing .lecture-thumb:before {
+		font-size: 12px;
+		left: -23px;
+	}
+	.more-lecture-btn {
+		margin-right: 60px;
+	}
+}

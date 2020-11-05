@@ -1,0 +1,125 @@
+<?php
+return [
+
+	// offer list	
+
+	'Offer_List' => 'Offer列表',
+	'Price' => '价格',
+	'Select_Price' => '选择价格',
+	'Select_Category' => '选择类别',
+	'Category' => '类别',
+	'Select_Language' => '选择语言',
+	'Language' => '语言',
+	'Select_Level' => '选择水平',
+	'Title' => '名称',
+	'Enter_a_name' => '输入名称',
+	'Search' => '搜索',
+	'Reset' => '重置',
+	'Offer_ID' => 'Offer ID',
+	'Teacher_name' => '教师姓名',
+	'Title' => '名称',
+	'Category' => '类别',
+	'Level' => '水平',
+	'Language' => '语言',
+	'Lesson_Date_Time' => '课程日期及时间',
+	'Duration' => '时长',
+	'Price' => '价格 ($)',
+	'Created_Date' => '创建日期',
+	'Action' => '操作',
+	'Book_Now' => '现在预定',
+	'Record_not_found' => '未找到记录.',
+	'View_Offer_Detail' => '查看Offer详情',
+	'Back' => '返回',
+	'Offer_Basic_Detail' => 'Offer基本信息',
+	'Teacher_Name' => '教师姓名',
+	'What_Subject_You_Want_to_teach' => '你想教授什么课程?',
+	'Whats_Your_Level' => '你在什么水平?',
+	'Lesson_language' => '课程价格',
+	'Price_For_Each_Lesson' => '每节课价格',
+	'What_type_of_lesson_do_you_Provide' => '你提供哪种课程?',
+	
+	'Duration' => '时长',
+	'Minutes' => '分钟',
+	'Status' => '状态',
+	
+	'What_do_you_want_to_Teach' => '你想教什么?',
+
+// Profile start
+	'Edit_Profile' => '编辑个人资料',
+	'You_will_get_all_teachers_reviews' => '你将获得所有教师评语',
+	'You_will_find_your_teachers_faster' => '你将更快找到你的教师',
+	'Your_request_will_be_seen_by_all_of_teachers' => '你的需求将被所有教师看到',
+
+	
+
+	'First_Name' => '名',
+	'Last_Name' => '姓',
+	'Email_ID' => '邮箱地址',
+	'Category_Name' => '类别名称',
+	'Select_Category_Name' => '选择类别名称',
+	'Education_Level' => '教育水平',
+	'Select_Education_Level' => '选择教育水平',
+	'Profile_Pic' => '头像',
+	'Language' => '语言',
+	'Bio' => '简历',
+	'Introduce_yourself' => '介绍你自己...',
+	'Update_Profile' => '更新个人资料',
+
+	// Request Page
+
+	'Create_your_request' => '创建你的请求',
+
+	'Request_title' => '请求名称',
+	'Enter_your_request_title' => '输入你的请求名称',
+	'Request_Type' => '请求类型',
+	'Select_Request_Type' => '选择请求类型',
+	'Level_of_Student' => '学生水平',
+	'Select_Level_of_Student' => '选择学生水平',
+	'Select_Lesson_language' => '选择课程语言',
+	'Price_For_Each_Lesson' => '每节课价格 ($)',
+	'Enter_Your_Price_For_Each_Lesson' => '输入每节课价格 ($)',
+	'What_type_of_lesson_do_you_need' => '你需要哪种课程?',
+	'Regular' => '常规',
+
+	'One_off' => '一次性',
+	'Request_Time' => '请求时间',
+	'Time_zone_changed_automatically' => '(时区自动更改，可用时间已自动更改为您的当地时间。)',
+	'What_do_you_want_to_learn' => '你想学习什么?',
+	'Type_a_Description' => '输入描述...….',
+	'Create_Request' => '创建需求',
+	
+	'Edit_your_request' => '编辑你的需求',
+	'Update_Request' => '更新需求',
+	'Request_List' => '需求列表',
+	'Add_new_Request' => '添加新需求',
+	'Select_Type' => '选择类型',
+	'Type' => '类型',
+	'ID' => 'ID',
+	'Date' => '日期',
+	'Time' => '时间',
+	'Rejected' => '拒绝',
+	'Approved' => '同意',
+	'Pending' => '待定',
+	'View_Request_Detail' => '查看需求详情',
+	'Edit' => '编辑',
+	'Request_Basic_Detail' => '需求基本信息',
+	'Date_and_Time' => '日期和时间',
+	'Description' => '描述',
+	'Rating' => '等级',
+	'Published_Date' => '发布日期',
+	'Update' => '更新',
+	'Edit_Bio' => '编辑个人资料',
+	'Dashboard' => '我的首页',
+	'Total_request' => '全部需求',
+	'Total_Course' => '全部课程',
+	'New_offer' => '新offer',
+	'Create_New_Request' => '创建新需求',
+	'New_Messages_Received' => '新消息',
+
+	//hardik set extra
+	'Payment' => 'Payment',
+	'Booked' => 'Booked',
+	
+	
+    
+];
